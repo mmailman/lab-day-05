@@ -21,3 +21,9 @@ function sumArray(array) {
   console.table(array);
   console.log(array[0] + ',' + array[1] + ',' + array[2] + ', was passed in as an array of numbers, and ' + sum + ' is their sum.');
 }
+
+function multiplyArray(array) {
+  var product = array[0] * array[1] * array[2];
+  console.table(array);
+  console.log('The numbers ' + array[0] + ',' + array[1] + ',' + array[2] + ' have a product of ' + product + '.');
+}
